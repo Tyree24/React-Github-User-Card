@@ -8,10 +8,15 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   border: 1px solid lightgrey;
   padding: 2%;
+  max-width: 200px;
 }
 
 .card__avatar {
   max-width: 150px;
+  margin: 0 auto;
 }
