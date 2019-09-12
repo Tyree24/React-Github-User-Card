@@ -25,11 +25,14 @@ class App extends React.Component {
       <div className="container">
             <div className="card">
               <h4>{this.state.userData.login}</h4>
+
               <img 
                 className="card__avatar"
                 alt={this.state.userData.login}
                 src={this.state.userData.avatar_url}
               />
+                            <p>Bio: {this.state.userData.bio}</p>
+              <p>Followers: {this.state.userData.followers}</p>
             </div>
           </div>
       </header>
