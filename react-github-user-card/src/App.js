@@ -2,7 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+class App extends React.Component {
+
+  state = {
+    userData: {}
+  };
+
+  render() {
   return (
     <div className="App">
       <header>
@@ -11,5 +18,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
