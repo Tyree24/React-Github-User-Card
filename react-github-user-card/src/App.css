@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  padding: 5%;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.container a:hover {
+  background-color: #929297;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid lightgrey;
+  padding: 2%;
+  max-width: 200px;
+  margin: 1%;
+}
+
+.card__avatar {
+  max-width: 150px;
+}
+
+.user-card {
+  margin: 0 auto;
+}
